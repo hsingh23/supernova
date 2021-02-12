@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 gem 'execjs'
 
 gem 'therubyracer'
-gem 'rails', '3.2.13'
+gem 'rails', '6.0.3.5'
 gem 'haml', "4.0.3"
 gem 'devise', "2.2.4"
 gem 'bcrypt-ruby', '~> 3.0.0'
