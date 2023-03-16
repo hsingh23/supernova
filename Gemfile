@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 gem 'execjs'
 
 gem 'therubyracer'
-gem 'rails', '3.2.13'
+gem 'rails', '6.1.7.3'
 gem 'haml', "4.0.3"
-gem 'devise', "2.2.4"
+gem 'devise', '4.7.0'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Bundle edge Rails instead:
@@ -13,7 +13,7 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails', '~> 5.0.8'
   gem 'uglifier', '>= 1.0.3'
 end
 
