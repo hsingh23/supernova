@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 gem 'execjs'
 
 gem 'therubyracer'
-gem 'rails', '3.2.13'
+gem 'rails', '7.1.0'
 gem 'haml', "4.0.3"
-gem 'devise', "2.2.4"
+gem 'devise', '4.7.0'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Bundle edge Rails instead:
@@ -19,7 +19,7 @@ end
 
 group :development, :test do
   gem 'pry-rails' 
-  gem 'rspec-rails' 
+  gem 'rspec-rails' , '>= 2.14.0'
   gem 'sqlite3'
 end
 
